@@ -11,6 +11,7 @@
 
             <div v-for="injury in injuries"> 
                 {{injury}}
+                <img v-if="injury.imgUrl" :src="injury.imgUrl">
             </div>
         </div>
         <div v-else-if="loading">
