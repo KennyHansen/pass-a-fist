@@ -2,7 +2,7 @@ let cards = [
     {
         name: "A fake card",
         type: "Attack",
-        imgUrl: "../assets/logo.png" // get this working :)
+        imgUrl: "../src/assets/logo.png" // get this working :)
     },
     {
         name: "Another fake card",
