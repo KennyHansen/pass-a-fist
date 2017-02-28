@@ -44,7 +44,7 @@
             return {
                 msg: 'Pass-a-fist',
                 cards: cardService.getSomeFakeCards(),
-                injuries: injuryService.getSomeFakeInjurys()
+                injuries: injuryService.getSomeFakeInjuries()
             }
         }
     }
