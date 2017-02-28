@@ -6,7 +6,7 @@
             Welcome, {{user.name}}
             <div v-for="card in cards"> 
                 {{card}}
-                <img v-if="card.imgUrl" :src="card.imgUrl">
+            <img v-if="card.imgUrl" :src="card.imgUrl"> 
             </div>
 
             <div v-for="injury in injuries"> 
