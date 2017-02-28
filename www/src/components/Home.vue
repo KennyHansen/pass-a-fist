@@ -22,6 +22,7 @@
     </div>
 </template>
 
+
 <script>
     import cardService from '../services/card-service'
     import injuryService from '../services/injury-service'
