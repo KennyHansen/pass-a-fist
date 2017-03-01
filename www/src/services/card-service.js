@@ -9,7 +9,7 @@ let cards = [
     {
         name: "A Tube Sock Full of 9v Batteries",
         type: "Attack",
-        imgUrl: "../assets/logo.png" // get this working :)
+        imgUrl: fightIcons.aTubeSockWithBatteriesAttack // get this working :)
     },
     {
         name: "Accelerate Global Warming",

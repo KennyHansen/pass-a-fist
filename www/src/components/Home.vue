@@ -5,7 +5,7 @@
         <div v-if="user.name">
             Welcome, {{user.name}}
             <div v-for="card in cards"> 
-                {{card}}
+                {{card.name}} {{card.type}} 
             <img v-if="card.imgUrl" :src="card.imgUrl"> 
             </div>
 
@@ -53,5 +53,9 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+img{
+    height: 300px;
+    width:200px;
+}
     
 </style>
