@@ -5,22 +5,22 @@ let cards = [
     {
         name: "6 Inch Punch",
         type: "Attack",
-        imgUrl: fightIcons.six_inch_punch_attack  // get this working :)
+        imgUrl: fightIcons.six_inch_punch_attack  
     },
     {
         name: "A Tube Sock Full of 9v Batteries",
         type: "Attack",
-        imgUrl: fightIcons.a_tube_sock_full_of_9v_batteries_attack // get this working :)
+        imgUrl: fightIcons.a_tube_sock_full_of_9v_batteries_attack 
     },
     {
         name: "Accelerate Global Warming",
         type: "Attack",
-        imgUrl: fightIcons.accelerate_global_warming_attack// get this working :)
+        imgUrl: fightIcons.accelerate_global_warming_attack
     },
     {
         name: "Awkward Surprise Piggyback Ride",
         type: "Attack",
-        imgUrl: "../assets/logo.png" // get this working :)
+        imgUrl: fightIcons 
     },
     {
         name: "Armbar",
