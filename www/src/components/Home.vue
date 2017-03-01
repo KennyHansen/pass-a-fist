@@ -11,6 +11,7 @@
 
             <div v-for="injury in injuries"> 
                 {{injury}}
+                <img v-if="injury.imgUrl" :src="injury.imgUrl">
             </div>
         </div>
         <div v-else-if="loading">
@@ -44,7 +45,7 @@
             return {
                 msg: 'Pass-a-fist',
                 cards: cardService.getSomeFakeCards(),
-                injuries: injuryService.getSomeFakeInjurys()
+                injuries: injuryService.getSomeFakeInjuries()
             }
         }
     }

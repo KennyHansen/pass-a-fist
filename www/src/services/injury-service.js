@@ -1,7 +1,10 @@
-let injurys = [
+import { injuryIcons } from '../assets/cards/injury-cards/icons-injury.js'
+
+let injuries = [
     {
-        name: "A fake injury",
-        damage: 1
+        name: "Dain Bramage",
+        damage: 1,
+        imgUrl: injuryIcons.dainBramage
     },
     {
         name: "Another fake injury",
@@ -14,11 +17,11 @@ let injurys = [
 ]
 
 let injuryService = {
-    getSomeFakeInjurys() {
-        return injurys
+    getSomeFakeInjuries() {
+        return injuries
     },
     addFakeInjury(injuryName) {
-        injurys.push({ name: injuryName, damage: 1})
+        injuries.push({ name: injuryName, damage: 1})
         console.log('New injury added')
     }
 }

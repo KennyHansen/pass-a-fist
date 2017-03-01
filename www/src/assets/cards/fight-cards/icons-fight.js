@@ -58,9 +58,13 @@ import duckCounter from './Duck-counter.png'
 
 
 let fightIcons = {
+<<<<<<< HEAD
 sixInchPunchAttack: sixInchPunchAttack,
 aLovingEmbraceCounter: aLovingEmbraceCounter,
 aTubeSockWithBatteriesAttack: aTubeSockWithBatteriesAttack
+=======
+    sixInchPunchAttack: sixInchPunchAttack
+>>>>>>> a10703fc8473b057e656a3a2280e311f392e41a4
 }
 
 export { fightIcons } 
