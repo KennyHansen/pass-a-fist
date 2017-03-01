@@ -12,6 +12,8 @@
   },
   "dependencies": {
     "axios": "^0.15.3",
+    "glob": "^7.1.1",
+    "gulp": "^3.9.1",
     "socket.io": "^1.7.3",
     "socket.io-client": "^1.7.3",
     "sortable": "^2.0.0",

@@ -1,20 +1,21 @@
-import { fightIcons } from '../assets/cards/fight-cards/icons-fight.js'
+
+import fightIcons from '../assets/cards/fight-cards/icons.js'
 
 let cards = [
     {
         name: "6 Inch Punch",
         type: "Attack",
-        imgUrl: fightIcons.sixInchPunchAttack // get this working :)
+        imgUrl: fightIcons.six_inch_punch_attack  // get this working :)
     },
     {
         name: "A Tube Sock Full of 9v Batteries",
         type: "Attack",
-        imgUrl: fightIcons.aTubeSockWithBatteriesAttack // get this working :)
+        imgUrl: fightIcons.a_tube_sock_full_of_9v_batteries_attack // get this working :)
     },
     {
         name: "Accelerate Global Warming",
         type: "Attack",
-        imgUrl: "../assets/logo.png" // get this working :)
+        imgUrl: fightIcons.accelerate_global_warming_attack// get this working :)
     },
     {
         name: "Awkward Surprise Piggyback Ride",

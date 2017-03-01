@@ -1,14 +1,15 @@
-import { injuryIcons } from '../assets/cards/injury-cards/icons-injury.js'
+import injuryIcons from '../assets/cards/injury-cards/icons.js'
 
 let injuries = [
     {
         name: "Dain Bramage",
         damage: 1,
-        imgUrl: injuryIcons.dainBramage
+        imgUrl: injuryIcons.dain_bramage__injury
     },
     {
-        name: "Another fake injury",
-        damage: 1
+        name: "Torn Achiles",
+        damage: 1,
+        imgUrl: injuryIcons.torn_achiles__injury
     },
     {
         name: "A third fake injury",
